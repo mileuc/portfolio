@@ -1,0 +1,41 @@
+.description {
+    background-color: #ffdac1;
+    padding: 2rem;
+    opacity: 0.9;
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .link {
+      color:#5B0E2D;
+      font-weight: bold;
+      text-decoration: underline;
+      text-decoration-thickness: 0.3125rem; 
+      text-decoration-color: rgba(144, 201, 247, 0.905);
+      text-decoration-style: single;
+      transition-duration: 0.4s;
+    }
+
+    .link:hover {
+        color:rgba(228, 175, 177, 0.85);
+        text-decoration-color:  rgba(228, 175, 177, 0.85);
+    }
+
+    .icon {
+        color: #5B0E2D;
+        margin: 0 0.1rem;
+        position: relative;
+        top: 0.3rem;
+        text-decoration: none;
+        transition-duration: 0.4s;
+      }
+  
+      .icon:hover {
+        color: #ddc15b;
+        -webkit-filter: drop-shadow(1px 1px 0 #fce38a)
+        drop-shadow(-1px -1px 0 #fce38a);
+        filter: drop-shadow(1px 1px 0 #fce38a) 
+        drop-shadow(-1px -1px 0 #fce38a) drop-shadow(0 0 0.5rem #fce38a);
+      }
+}

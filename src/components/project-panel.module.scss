@@ -1,0 +1,50 @@
+.panel {
+    border: medium solid rgb(255, 252, 225);
+    display: inline-block;
+    width: 400px;
+    height: 450px;
+    margin: 0 1rem 1rem 1rem;
+
+    .media {
+        height: 200px;
+    }
+
+    .content {
+        background-color: rgb(255, 252, 225);
+        height: 250px;
+        font-style: sans-serif;
+        text-align: left;
+
+        .panel-title {
+            color: #5B0E2D;
+            font-weight: bold;
+        }
+
+        .panel-description {
+            font-size: 0.8rem;
+        }
+        
+        .topics {
+            display: flex;
+            padding: 1rem 0 0.4rem 0;
+            overflow: auto;
+    
+            .topic {
+                font-size: 0.75rem;
+                margin: 0 0.5rem 0 0;
+                padding: 0.2rem;
+                background-color: #F2D4D7;
+                font-weight: bold;
+            }
+        }
+    }
+
+
+}
+
+.panel:hover {
+    -webkit-filter: drop-shadow(1px 1px 0 #fce38a)
+    drop-shadow(-1px -1px 0 #fce38a);
+    filter: drop-shadow(1px 1px 0 #fce38a) 
+    drop-shadow(-1px -1px 0 #fce38a) drop-shadow(0 0 0.5rem #fce38a);
+}

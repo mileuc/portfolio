@@ -1,0 +1,20 @@
+.background {
+    background-color: #F2D4D7;
+    // background-image: linear-gradient(to top, #F2D4D7, rgba(228, 175, 177, 0.85));
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1020px;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+    font-family: "Karla", sans-serif;
+    color:#5B0E2D;
+}

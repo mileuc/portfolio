@@ -1,0 +1,30 @@
+footer {
+  text-align: center;
+
+  .footer-message {
+    color: #5B0E2D;
+    font-size: 0.75rem;
+  }
+
+  .footer-icons {
+    display: inline-flex;
+
+    a {
+      color: #5B0E2D;
+      font-size: 0.75rem;
+      margin: 2rem 0.4rem 0 0.4rem;
+      text-decoration: none;
+      transition-duration: 0.4s;
+    }
+
+    a:hover {
+      color: #ffc597;
+      -webkit-filter: drop-shadow(1px 1px 0 #fce38a)
+      drop-shadow(-1px -1px 0 #fce38a);
+      filter: drop-shadow(1px 1px 0 #fce38a) 
+      drop-shadow(-1px -1px 0 #fce38a) drop-shadow(0 0 0.5rem #fce38a);
+    }
+  }
+
+
+}

@@ -1,0 +1,18 @@
+.header {
+
+    h1 {
+        text-decoration: underline;
+        text-decoration-thickness: 0.3rem; 
+        text-decoration-color:  rgb(248, 240, 167);
+    }
+    
+    hr {
+        background-color:rgb(248, 240, 167);
+        margin: 0;
+    }
+}
+
+.project-panels {
+    padding: 1rem; 
+    text-align: center;
+}
