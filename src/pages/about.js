@@ -37,7 +37,7 @@ const AboutPage = () => {
                     </p>
                     
                     <p>
-                    Have an opportunity where I could potentially apply the bits of knowledge I have gained thus far and grow into a specific role? Want a copy of my resume? Interested in learning more about me and my background? Or did you want to just say hello? Feel free to contact me! → 
+                    Have an opportunity where I could potentially apply the bits of knowledge I have gained thus far and grow into a specific role? Need a copy of my resume? Interested in learning more about me and my background? Or did you want to just say hello? Feel free to contact me! → 
                     <a className={aboutStyles.icon} href="https://www.linkedin.com/in/milecal/" target="_blank" rel="noreferrer" title="LinkedIn" aria-label="linkedin"> <LinkedInIcon fontSize="small" /></a>
                     <a className={aboutStyles.icon} href="mailto: mileuc95@gmail.com" target="_blank" rel="noreferrer" title="Email" aria-label="email"><EmailIcon fontSize="small" /></a>
                     </p>

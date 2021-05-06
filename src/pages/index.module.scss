@@ -2,6 +2,7 @@
     background-color: #ffdac1;
     padding: 2rem;
     opacity: 0.9;
+    margin-bottom: 0.5rem;
 
     .content {
       position: relative;
@@ -45,4 +46,13 @@
         filter: drop-shadow(1px 1px 0 #fce38a) 
         drop-shadow(-1px -1px 0 #fce38a) drop-shadow(0 0 0.5rem #fce38a);
       }
+}
+
+.updates {
+  background-color: rgba(144, 201, 247, 0.199);
+  padding: 0.8rem 2rem;
+
+  h5 {
+    margin-bottom: 0;
+  }
 }

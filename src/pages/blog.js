@@ -2,6 +2,7 @@ import React from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
 import Layout from "../components/layout";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
+import { INLINES } from "@contentful/rich-text-types";
 import * as blogStyles from "./blog.module.scss";
 import Head from "../components/head";
 
@@ -30,6 +31,21 @@ const BlogPage = () => {
   `)
 
     //console.log(data); 
+    const options = {
+        renderNode: {
+          [INLINES.HYPERLINK]: (node) => {
+                    return (
+                        <a
+                            href={node.data.uri}
+                            target={`${node.data.uri.startsWith("https://youtube.com/embed") ? '_self' : '_blank'}`}
+                            rel={`${node.data.uri.startsWith("https://youtube.com/embed") ? '' : 'noopener noreferrer'}`}
+                        >
+                            {node.content[0].value}
+                        </a>
+                    );
+                }
+            }
+        }
     
     return (
         <div>
@@ -50,7 +66,7 @@ const BlogPage = () => {
                                     </Link>
                                 </h2>
                                 <div className={blogStyles.postPreview}>
-                                    {documentToReactComponents(JSON.parse(edge.node.preview.raw))}
+                                    {documentToReactComponents(JSON.parse(edge.node.preview.raw), options)}
                                 </div>
                                 <div className={blogStyles.bottomLine}>
                                     <p>{edge.node.publishedDate}</p>

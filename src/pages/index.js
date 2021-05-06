@@ -7,6 +7,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import ParticleBackground from "../components/particle-background";
+import Typed from "react-typed";
 
 const IndexPage = () => {
   return (
@@ -31,6 +32,15 @@ const IndexPage = () => {
               you can also learn more <Link className={indexStyles.link} to="/about">about</Link> me or check out my <Link className={indexStyles.link} to="/blog">random musings</Link>!
             </p>
           </div>
+        </div>
+        <div className={indexStyles.updates}>
+            <h5>
+              coming soon: <Typed
+              strings={[" Python projects will be added to the projects page!", " more blog posts!"]}
+              typeSpeed={30}
+              backSpeed={30}
+              loop />
+          </h5>
         </div>
     </Layout>
   )

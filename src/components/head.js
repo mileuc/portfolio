@@ -7,14 +7,14 @@ const Head = (props) => {
         query {
             site {
                 siteMetadata {
-                    title
+                    author
                 }
             }
         }
     `)
 
     return (
-        <Helmet title={`${props.title} | ${data.site.siteMetadata.title}`} />
+        <Helmet title={`${props.title} | ${data.site.siteMetadata.author}`} />
     )
 }
 
