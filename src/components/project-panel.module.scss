@@ -5,6 +5,10 @@
     height: 450px;
     margin: 0 1rem 1rem 1rem;
 
+    @media screen and (max-width: 510px){
+        width: 300px;
+    }
+
     .media {
         height: 200px;
     }
