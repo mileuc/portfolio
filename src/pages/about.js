@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Head from "../components/head";
 import * as aboutStyles from "./about.module.scss";
@@ -20,7 +19,7 @@ const AboutPage = () => {
                     </p>
 
                     <p>
-                    After completing "Mindshift", this experience has pushed me to keep my mind active and stay busy. Instead of continuing to just sample free Python coding courses on <a className={aboutStyles.link} href="https://www.codecademy.com/learn/learn-python" target="_blank" rel="noreferrer">CodeAcademy</a>, or learning from <a className={aboutStyles.link} href="https://www.linkedin.com/posts/data-science-central_learn-python-in-3-days-step-by-step-guide-activity-6660540746942214144-XSme" target="_blank" rel="noreferrer">small programming articles</a> on websites like Data Science Central, I have fully committed to adding more tools to my toolbox by enrolling in online programming courses to build real <Link className={aboutStyles.link} to="/projects">projects</Link>. I have completed "<a className={aboutStyles.link} href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank" rel="noreferrer">The Complete 2021 Web Development Bootcamp</a>" on Udemy, where I got the opportunity to develop skills in Full-Stack Web Development through building a variety of Web applications. Currently, I am taking the 
+                    After completing "Mindshift", this experience has pushed me to keep my mind active and stay busy. Instead of continuing to just sample free Python coding courses on <a className={aboutStyles.link} href="https://www.codecademy.com/learn/learn-python" target="_blank" rel="noreferrer">CodeAcademy</a>, or learning from <a className={aboutStyles.link} href="https://www.linkedin.com/posts/data-science-central_learn-python-in-3-days-step-by-step-guide-activity-6660540746942214144-XSme" target="_blank" rel="noreferrer">small programming articles</a> on websites like Data Science Central, I have fully committed to adding more tools to my toolbox by enrolling in online programming courses to build real <a className={aboutStyles.link} href="/projects" target="_blank" rel="noreferrer">projects</a>. I have completed "<a className={aboutStyles.link} href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank" rel="noreferrer">The Complete 2021 Web Development Bootcamp</a>" on Udemy, where I got the opportunity to develop skills in Full-Stack Web Development through building a variety of Web applications. Currently, I am taking the 
                     "<a className={aboutStyles.link} href="https://www.udemy.com/course/100-days-of-code/" target="_blank" rel="noreferrer">100 Days of Code</a>" course to build various apps in Data Science, Web Development, Automation, Web Scraping, and Gaming using Python. Both of these courses have been excellent for a beginner like myself, and have helped build a solid base of knowledge and confidence that I can learn from any resource.
                     </p>
 
@@ -33,7 +32,7 @@ const AboutPage = () => {
                     </p>
                     
                     <p>
-                    I didn't necessarily start learning programming with the singular goal of becoming a Software Developer, as I was simply taking advantage of an opportunity to add skills during an unprecedented time. I have no idea where learning programming will take me, or if it will even lead to anything. However, I have enjoyed the journey so far and I am proud of the projects I have worked on! Creating this portfolio website in particular has been extremely rewarding as an outlet for applying my problem-solving skills, creativity, and all the programming concepts I have learned to date. 
+                    I didn't necessarily start learning programming with the singular goal of becoming a Software Developer, as I was simply taking advantage of an opportunity to add skills during an unprecedented time. I have no idea where learning programming will take me, or if it will even lead to anything. However, I have enjoyed the journey so far and I am proud of the projects I have worked on! Creating this <a className={aboutStyles.link} href="/projects/portfolio-site" target="_blank" rel="noreferrer">portfolio website</a> in particular has been extremely rewarding as an outlet for applying my problem-solving skills, creativity, and all the programming concepts I have learned to date. 
                     </p>
                     
                     <p>

@@ -16,9 +16,9 @@
 }
 
 .title:hover {
-    color: #d11c00;
+    color: rgba(144, 201, 247, 0.514);
     opacity: 1;
-    text-decoration-color:  #d11c00;
+    text-decoration-color:  rgba(144, 201, 247, 0.514);
 }
 
 .nav-list {
@@ -40,12 +40,16 @@
     }
     
     .nav-item:hover {
-        color:#d11c00ab;
+        color:rgba(144, 201, 247, 0.705);
         opacity: 0.8;
         text-decoration: underline;
         text-decoration-thickness: 0.3125rem; 
-        text-decoration-color:  #d11c00ab;
+        text-decoration-color:  rgba(144, 201, 247, 0.705);
         text-decoration-style: single;
+        -webkit-filter: drop-shadow(1px 1px 0 #fce38a)
+        drop-shadow(-1px -1px 0 #fce38a);
+        filter: drop-shadow(1px 1px 0 #fce38a) 
+        drop-shadow(-1px -1px 0 #fce38a) drop-shadow(0 0 0.5rem #fce38a);
     }
     
     .active-nav-item {
