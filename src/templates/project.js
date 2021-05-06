@@ -41,7 +41,7 @@ const Project = (props) => {
           return <img src={url} alt={title} />;
         },
         [INLINES.HYPERLINK]: (node) => {
-          return <a href={node.data.uri} target={`${node.data.uri.startsWith("http") ? '_self' : '_blank'}`} rel={`${node.data.uri.startsWith("http://localhost:8000") ? '' : 'noopener noreferrer'}`}>{node.content[0].value}</a>;
+          return <a href={node.data.uri} target={`${node.data.uri.startsWith("https://michael-le-portfolio.netlify.app") ? '_self' : '_blank'}`} rel={`${node.data.uri.startsWith("http://localhost:8000") ? '' : 'noopener noreferrer'}`}>{node.content[0].value}</a>;
         }
       }
     }
