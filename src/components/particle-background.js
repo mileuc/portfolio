@@ -4,7 +4,7 @@ import ParticleConfig from "../config/particle-config";
 
 const ParticleBackground = () => {
     return (
-        <Particles params={ParticleConfig} style={{position: "fixed", top: 0, left: 0, zIndex: 0}}></Particles>
+        <Particles params={ParticleConfig} style={{zIndex: 0}}></Particles>
     )
 }
 

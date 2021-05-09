@@ -28,7 +28,7 @@ const AboutPage = () => {
                     </p>
                     
                     <p>
-                    In my spare time, I am an avid fan of Hockey, Basketball, and Mixed Martial Arts. I also love Poker, sitcoms, crime dramas, reality TV, console video games, Photoshop, finding new music, biking, long walks, trying different kinds of food, and board games. I also enjoy volunteering for organizations like Sport Calgary, which gives children an opportunity to discover a new sport and promotes active living. For inspiration on new project ideas in the future, I am always seeking completed projects related to these topics. 
+                    In my spare time, I am an avid fan of Hockey, Basketball, and Mixed Martial Arts. I also love Poker, sitcoms, crime dramas, reality TV, console video games, Photoshop, finding new music, biking, long walks, trying different kinds of food, and board games. I also enjoy volunteering for organizations like Sport Calgary, which gives children an opportunity to discover a new sport and promotes active living. I am always seeking completed projects on these topics for inspiration on new project ideas in the future.
                     </p>
                     
                     <p>

@@ -3,6 +3,14 @@
     padding: 2rem;
     opacity: 0.9;
     margin-bottom: 0.5rem;
+    position: relative;
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+    }
 
     .content {
       position: relative;

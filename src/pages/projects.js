@@ -3,7 +3,7 @@ import { Link, graphql, useStaticQuery } from "gatsby";
 import Layout from "../components/layout";
 import Head from "../components/head";
 import ProjectPanel from "../components/project-panel";
-import * as projectsStyles from "./projects.module.scss"
+import * as projectsStyles from "./projects.module.scss";
 
 const ProjectsPage = () => {
 
@@ -46,7 +46,7 @@ const ProjectsPage = () => {
                         return (
                             <Link to={`/projects/${edge.node.slug}`}>
                                 <ProjectPanel
-                                    key={edge.node.slug}
+                                    key={edge.node.id}
                                     image={edge.node.image}
                                     name={edge.node.name} 
                                     description={edge.node.description}

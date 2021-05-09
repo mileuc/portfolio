@@ -84,7 +84,7 @@ const Blog = (props) => {
 								id="ytplayer"
 								src={node.data.uri}
 								type="text/html"
-								width="640"
+								width="80%"
 								height="320"
 								frameBorder="0"
 								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture ; fullscreen"
