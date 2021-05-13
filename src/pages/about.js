@@ -2,8 +2,8 @@ import React from "react";
 import Layout from "../components/layout";
 import Head from "../components/head";
 import * as aboutStyles from "./about.module.scss";
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import EmailIcon from '@material-ui/icons/Email';
+import { FaLinkedin } from "react-icons/fa";
+import { FaEnvelope } from "react-icons/fa";
 
 const AboutPage = () => {
     return (
@@ -37,8 +37,8 @@ const AboutPage = () => {
                     
                     <p>
                     Have an opportunity where I could potentially apply the bits of knowledge I have gained thus far and grow into a specific role? Need a copy of my resume? Interested in learning more about me and my background? Or did you want to just say hello? Feel free to contact me! → 
-                    <a className={aboutStyles.icon} href="https://www.linkedin.com/in/milecal/" target="_blank" rel="noreferrer" title="LinkedIn" aria-label="linkedin"> <LinkedInIcon fontSize="small" /></a>
-                    <a className={aboutStyles.icon} href="mailto: mileuc95@gmail.com" target="_blank" rel="noreferrer" title="Email" aria-label="email"><EmailIcon fontSize="small" /></a>
+                    <a className={aboutStyles.icon} href="https://www.linkedin.com/in/milecal/" target="_blank" rel="noreferrer" title="LinkedIn" aria-label="linkedin"> <FaLinkedin /></a>
+                    <a className={aboutStyles.icon} href="mailto: mileuc95@gmail.com" target="_blank" rel="noreferrer" title="Email" aria-label="email"><FaEnvelope /></a>
                     </p>
                 </div>
             </Layout>

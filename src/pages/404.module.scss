@@ -1,0 +1,27 @@
+.container {
+    background-color: #ffdac1;
+    padding: 2rem;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+    position: relative;
+
+    a {
+        color:#5B0E2D;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-thickness: 0.3125rem; 
+        text-decoration-color:  rgba(144, 201, 247, 0.905);
+        text-decoration-style: single;
+        transition-duration: 0.4s;
+    }
+
+    a:hover {
+        color:rgba(228, 175, 177, 0.85);
+        text-decoration-color:  rgba(228, 175, 177, 0.85);
+    }
+
+    p {
+        font-size: 0.9rem;
+        margin-bottom: 0.65rem;
+    }
+}

@@ -46,10 +46,10 @@
         text-decoration-thickness: 0.3125rem; 
         text-decoration-color:  rgba(144, 201, 247, 0.705);
         text-decoration-style: single;
-        -webkit-filter: drop-shadow(1px 1px 0 #fce38a)
-        drop-shadow(-1px -1px 0 #fce38a);
-        filter: drop-shadow(1px 1px 0 #fce38a) 
-        drop-shadow(-1px -1px 0 #fce38a) drop-shadow(0 0 0.5rem #fce38a);
+        -webkit-filter: drop-shadow(0.25px 0.25px 0 #fce38a)
+        drop-shadow(-0.25px -0.25px 0 #fce38a);
+        filter: drop-shadow(0.25px 0.25px 0 #fce38a) 
+        drop-shadow(-0.25px -0.25px 0 #fce38a) drop-shadow(0 0 0.25rem #fce38a);
     }
     
     .active-nav-item {
