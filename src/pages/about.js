@@ -105,7 +105,7 @@ const AboutPage = () => {
             data and present them for donor relations, marketing and fundraising
             teams to help them optimize their processes. Eventually, I motivated
             to enroll in the Masters of Software Engineering program at the
-            University of Calgary in 2022 where I have gained exposure to many different
+            University of Calgary in 2022, where I have gained exposure to many different
             areas in tech - especially Full-Stack Software Development, Machine
             Learning and Deep Learning, and Data Analysis. In the future, I
             would like to continue further expanding my skill set by learning
