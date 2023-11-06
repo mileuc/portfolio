@@ -102,28 +102,32 @@ const AboutPage = () => {
             I have been able to use these newly acquired skills to contribute as
             Data Analyst at The Mustard Seed, where I was able to apply my
             newfound knowledge to help the data team gain insights into donation
-            data and present them for donor relations, marketing and fundraising
-            teams to help them optimize their processes. Eventually, I motivated
+            data and present them for donor relations, marketing, and
+            fundraising teams to help them optimize their processes. Eventually,
+            my desire to further refine my skills under the guidance of
+            experienced Software and Machine Learning Engineers motivated me
             to enroll in the Masters of Software Engineering program at the
-            University of Calgary in 2022, where I have gained exposure to many different
-            areas in tech - especially Full-Stack Software Development, Machine
-            Learning and Deep Learning, and Data Analysis. In the future, I
-            would like to continue further expanding my skill set by learning
-            about other languages/frameworks like Django, Ruby on Rails and R,
-            and build simple projects that would tie into my passions.
+            University of Calgary in 2022, where I have gained exposure to many
+            different areas in tech - especially Full-Stack Software
+            Development, Machine Learning and Deep Learning, and Data Analysis.
+            In the future, I would like to continue further expanding my skill
+            set by learning about other languages/frameworks like Django, Ruby
+            on Rails and R, and build simple projects that would tie into my
+            passions.
           </p>
 
           <p>
             In my spare time, I enjoy yoga, learning to play guitar, trying
             different kinds of food (and hot sauces!) around the city, getting
-            lost in Wikipedia rabbit holes, playing around on PhotoShop, and binging sitcoms, crime dramas,
-            reality shows, and crime dramas. I am also an avid fan of Hockey and
-            Basketball, and I am always seeking inspiration for potential ideas
-            on these topics for personal projects in the future. I also enjoy
-            volunteering for organizations like Sport Calgary, which gives
-            children an opportunity to discover a new sport and promotes active
-            living. Additoinally, I am always seeking new ways to upgrade and
-            refine my skillset through online courses.
+            lost in Wikipedia rabbit holes, playing around on PhotoShop, and
+            binge-watching sitcoms, crime dramas, reality shows, and crime dramas. I am
+            also an avid fan of Hockey and Basketball, and I am always seeking
+            inspiration for potential ideas on these topics for personal
+            projects in the future. I also enjoy volunteering for organizations
+            like Sport Calgary, which gives children an opportunity to discover
+            a new sport and promotes active living. Additoinally, I am always
+            seeking new ways to upgrade and refine my skill set through online
+            courses.
           </p>
 
           <p>
