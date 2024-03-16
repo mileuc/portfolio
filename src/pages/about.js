@@ -111,8 +111,8 @@ const AboutPage = () => {
             different areas in tech - especially Full-Stack Software
             Development, Machine Learning and Deep Learning, and Data Analysis.
             In the future, I would like to continue further expanding my skill
-            set by learning about other languages/frameworks like Django, Ruby
-            on Rails and R, and build simple projects that would tie into my
+            set by learning about other languages/frameworks like Django and Ruby
+            on Rails, and build simple projects that would tie into my
             passions.
           </p>
 
