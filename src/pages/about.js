@@ -13,7 +13,7 @@ const AboutPage = () => {
         <div className={aboutStyles.description}>
           <h1>who is michael?</h1>
           <p>
-            Hello! I am a Masters of Software Engineering student from the
+            Hello! I am a Masters of Software Engineering graduate from the
             University of Calgary. Since earning my undergraduate degree in
             Electrical Engineering in 2017, I have worked as an Engineering
             Intern for an aerial data acquisition and geospatial data processing
