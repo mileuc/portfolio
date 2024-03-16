@@ -105,14 +105,14 @@ const AboutPage = () => {
             data and present them for donor relations, marketing, and
             fundraising teams to help them optimize their processes. Eventually,
             my desire to further refine my skills under the guidance of
-            experienced Software and Machine Learning Engineers motivated me
-            to enroll in the Masters of Software Engineering program at the
+            experienced Software and Machine Learning Engineers motivated me to
+            enroll in the Masters of Software Engineering program at the
             University of Calgary in 2022, where I have gained exposure to many
             different areas in tech - especially Full-Stack Software
             Development, Machine Learning and Deep Learning, and Data Analysis.
             In the future, I would like to continue further expanding my skill
-            set by learning about other languages/frameworks like Django and Ruby
-            on Rails, and build simple projects that would tie into my
+            set by learning about other languages/frameworks like Django and
+            Ruby on Rails, and build simple projects that would tie into my
             passions.
           </p>
 
@@ -120,14 +120,14 @@ const AboutPage = () => {
             In my spare time, I enjoy yoga, learning to play guitar, trying
             different kinds of food (and hot sauces!) around the city, getting
             lost in Wikipedia rabbit holes, playing around on PhotoShop, and
-            binge-watching sitcoms, crime dramas, reality shows, and crime dramas. I am
-            also an avid fan of Hockey and Basketball, and I am always seeking
-            inspiration for potential ideas on these topics for personal
-            projects in the future. I also enjoy volunteering for organizations
-            like Sport Calgary, which gives children an opportunity to discover
-            a new sport and promotes active living. Additionally, I am always
-            seeking new ways to upgrade and refine my skill set through online
-            courses.
+            binge-watching sitcoms, crime dramas, reality shows, and crime
+            dramas. I am also an avid fan of Hockey and Basketball, and I am
+            always seeking inspiration for potential ideas on these topics for
+            personal projects in the future. I also enjoy volunteering for
+            organizations like Sport Calgary, which gives children an
+            opportunity to discover a new sport and promotes active living.
+            Additionally, I am always seeking new ways to upgrade and refine my
+            skill set through online courses.
           </p>
 
           <p>
@@ -148,7 +148,8 @@ const AboutPage = () => {
             </a>{" "}
             in particular has been extremely rewarding as an outlet for applying
             my problem-solving skills, creativity, and all the programming
-            concepts I have learned to date.
+            concepts I have learned to date. My interests lie in Data Analysis,
+            Full Stack Development, Software Engineering, and Teaching.
           </p>
 
           <p>
