@@ -125,7 +125,7 @@ const AboutPage = () => {
             inspiration for potential ideas on these topics for personal
             projects in the future. I also enjoy volunteering for organizations
             like Sport Calgary, which gives children an opportunity to discover
-            a new sport and promotes active living. Additoinally, I am always
+            a new sport and promotes active living. Additionally, I am always
             seeking new ways to upgrade and refine my skill set through online
             courses.
           </p>
