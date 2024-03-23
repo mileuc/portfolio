@@ -159,7 +159,7 @@ const AboutPage = () => {
             in learning more about me and my background? Feel free to contact me! →
             <a
               className={aboutStyles.icon}
-              href="https://www.linkedin.com/in/milecal/"
+              href="https://www.linkedin.com/in/milecal"
               target="_blank"
               rel="noreferrer"
               title="LinkedIn"
