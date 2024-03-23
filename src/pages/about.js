@@ -156,8 +156,7 @@ const AboutPage = () => {
             Have an opportunity in Engineering, Tech, or somewhere else where I
             could potentially apply the bits of knowledge I have gained thus far
             and grow into a specific role? Need a copy of my resume? Interested
-            in learning more about me and my background? Or did you want to just
-            say hello? Feel free to contact me! →
+            in learning more about me and my background? Feel free to contact me! →
             <a
               className={aboutStyles.icon}
               href="https://www.linkedin.com/in/milecal/"
