@@ -118,16 +118,16 @@ const AboutPage = () => {
 
           <p>
             In my spare time, I enjoy yoga, learning to play guitar, trying
-            different kinds of food (and hot sauces!) around the city, getting
+            different kinds of food (and hot sauces!), getting
             lost in Wikipedia rabbit holes, playing around on PhotoShop, and
-            binge-watching sitcoms, crime dramas, reality shows, and crime
-            dramas. I am also an avid fan of Hockey and Basketball, and I am
-            always seeking inspiration for potential ideas on these topics for
-            personal projects in the future. I also enjoy volunteering for
-            organizations like Sport Calgary, which gives children an
-            opportunity to discover a new sport and promotes active living.
-            Additionally, I am always seeking new ways to upgrade and refine my
-            skill set through online courses.
+            binge-watching sitcoms, crime dramas, reality shows, and game shows.
+            I am also an avid fan of Hockey and Basketball, and I am always
+            seeking inspiration for potential ideas on these topics for personal
+            projects in the future. I also enjoy volunteering for organizations
+            like Sport Calgary, which gives children an opportunity to discover
+            a new sport and promotes active living. Additionally, I am always
+            seeking new ways to upgrade and refine my skill set through online
+            courses.
           </p>
 
           <p>
